@@ -11,20 +11,20 @@ from libc.string cimport memcpy, memset
 # 2. CONST UINT64
 # =================================================================
 
-cdef const uint64_t PI    = 0x243F6A8885A308D3
-cdef const uint64_t PHI   = 0x9E3779B97F4A7C15
-cdef const uint64_t ZETA  = 0x73356E847241A417
-cdef const uint64_t THETA = 0x486445D7E84B8E1D
-cdef const uint64_t E     = 0xB7E151628AED2A6A
-cdef const uint64_t SQRT2 = 0x6A09E667F3BCC908
-cdef const uint64_t LN2   = 0x317208E206385C69
-cdef const uint64_t CBRT3 = 0x502859495143A675
-cdef const uint64_t SQRT7 = 0x51E2838C61E1A334
-cdef const uint64_t SQRT8 = 0x6A09E667F3BCC909
-cdef const uint64_t CBRT7 = 0x6338B57065997232
-cdef const uint64_t CBRT9 = 0x787D6E90F845C22D
+cdef uint64_t PI    = 0x243F6A8885A308D3
+cdef uint64_t PHI   = 0x9E3779B97F4A7C15
+cdef uint64_t ZETA  = 0x73356E847241A417
+cdef uint64_t THETA = 0x486445D7E84B8E1D
+cdef uint64_t E     = 0xB7E151628AED2A6A
+cdef uint64_t SQRT2 = 0x6A09E667F3BCC908
+cdef uint64_t LN2   = 0x317208E206385C69
+cdef uint64_t CBRT3 = 0x502859495143A675
+cdef uint64_t SQRT7 = 0x51E2838C61E1A334
+cdef uint64_t SQRT8 = 0x6A09E667F3BCC909
+cdef uint64_t CBRT7 = 0x6338B57065997232
+cdef uint64_t CBRT9 = 0x787D6E90F845C22D
 
-cdef const uint64_t Bit0Mask = 0xFFFFFFFFFFFFFFFE
+cdef uint64_t Bit0Mask = 0xFFFFFFFFFFFFFFFE
 # =================================================================
 
 # =================================================================
