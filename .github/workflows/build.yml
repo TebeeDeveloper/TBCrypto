@@ -30,9 +30,8 @@ jobs:
       - name: Build wheels
         run: python -m cibuildwheel --output-dir wheelhouse
         env:
-          # Cấu hình cibuildwheel tại đây
-          # CIBW_SKIP: Bỏ qua các bản Python quá cũ hoặc quá mới không cần thiết
-          CIBW_SKIP: "cp36-* cp37-* pp*" 
+          CIBW_SKIP: "cp36-* cp37-* pp*"
+          CIBW_BUILD_VERBOSITY: 3
 
       - name: Upload wheels
         uses: actions/upload-artifact@v4
