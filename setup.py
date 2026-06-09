@@ -1,6 +1,6 @@
-from setuptools import setup, Extension
+from setuptools import setup
 from Cython.Build import cythonize
 
 setup(
-    ext_modules = cythonize("ten_file_cua_ban.pyx")
+    ext_modules=cythonize("_tbhashlib.pyx"),
 )
